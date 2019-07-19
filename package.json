@@ -1,0 +1,19 @@
+{
+  "name": "untitled1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "passes": "npm i preact@latest && npm test",
+    "fails": "npm i preact@10.0.0-rc.0 && npm test",
+    "test": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "preact": "^8.4.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
