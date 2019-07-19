@@ -1,5 +1,5 @@
 # cannot-extend-instrinsic-elements-demo
-bug report: cannot extend intrinsic elements type in Preact X
+how do I extend intrinsic elements type in Preact X?
 
 ```typescript jsx
 
@@ -14,7 +14,7 @@ main();
 ```
 
 This results in a compiler error in Preact X, but not Preact 8. 
-The former method of extending IntrinsicElements to allow for custom element names no longer works.
+A former method of extending IntrinsicElements to allow for custom names no longer works.
 
 ```
 declare namespace JSX {
