@@ -8,6 +8,12 @@
 //     }
 // }
 
+declare namespace JSX {
+    interface IntrinsicElements {
+        [tag: string]: any;
+    }
+}
+
 declare namespace preact.JSX {
     interface IntrinsicElements {
         [tag: string]: any;
