@@ -19,3 +19,5 @@ declare namespace preact.JSX {
         [tag: string]: any;
     }
 }
+
+declare interface SomeCustomInterfaceToDetermineWhetherThisFileIsBeingIncluded {}

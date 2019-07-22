@@ -1,7 +1,9 @@
 import { h as createElement } from 'preact';
 
 export function main() {
-    return <my-custom-element attr={5} />
+    const x: SomeCustomInterfaceToDetermineWhetherThisFileIsBeingIncluded = {};
+
+    return <my-custom-element attr={5} attr2={x} />
 }
 
 main();
